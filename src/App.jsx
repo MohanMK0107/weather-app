@@ -5,7 +5,7 @@ function App() {
   const [data,setdata] = useState({})
   const [location,setlocation] = useState('')
   
-  const url = `http://api.weatherapi.com/v1/current.json?key=b485dd2e5a8e4735964133420250205&q=${location}`
+  const url = `https://api.weatherapi.com/v1/current.json?key=b485dd2e5a8e4735964133420250205&q=${location}`
 
   const searchLocation = (event)=>{
     if(event.key === 'Enter'){
